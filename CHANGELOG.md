@@ -4,6 +4,10 @@ All notable changes to FigCraft for Codex are documented here. Versions follow [
 
 ## [Unreleased]
 
+### Changed
+
+- Clarified the README introduction and added a FigCraft editor screenshot and a GitHub social preview image.
+
 ## [0.1.1] - 2026-11-18
 
 ### Changed
