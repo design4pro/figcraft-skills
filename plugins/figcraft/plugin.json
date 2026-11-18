@@ -1,0 +1,25 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "figcraft",
+  "version": "0.1.0",
+  "description": "Build, refine, audit, and export editable FigCraft designs with Codex.",
+  "homepage": "https://craft.wiki/apps/figcraft/overview/",
+  "keywords": ["figcraft", "ui-design", "design-systems", "prototyping", "handoff"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "FigCraft",
+        "shortDescription": "Editable design workflows for FigCraft",
+        "longDescription": "Create interface screens, maintain reusable components and variables, build prototype flows, and review or export designs in FigCraft.",
+        "category": "Creativity",
+        "capabilities": ["Read", "Write"],
+        "websiteURL": "https://craft.wiki/apps/figcraft/overview/",
+        "defaultPrompt": [
+          "Build an editable FigCraft screen from my product brief.",
+          "Organize the repeated elements in my FigCraft page into reusable components.",
+          "Review a FigCraft screen and prepare a developer handoff."
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "figcraft-skills",
+  "interface": {
+    "displayName": "FigCraft Skills"
+  },
+  "plugins": [
+    {
+      "name": "figcraft",
+      "source": {
+        "source": "local",
+        "path": "./plugins/figcraft"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Creativity"
+    }
+  ]
+}
