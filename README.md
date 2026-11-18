@@ -1,6 +1,10 @@
 # FigCraft for Codex
 
-Design screens, maintain reusable components, wire prototypes, and prepare developer handoff in [FigCraft](https://craft.wiki/apps/figcraft/overview/) from Codex. The plugin includes five skills and a local MCP configuration for Codex Desktop and CLI.
+Use Codex to create and edit designs in [FigCraft](https://getartcraft.com/apps/figcraft), the open-source interface design app from ArtCraft. The plugin includes five skills for documents, screen layouts, design systems, prototypes, and developer handoff. It also configures a local MCP connection for Codex Desktop and CLI.
+
+[![FigCraft editor showing three mobile screens from the Ridgeline demo, with the Layers and Design panels open](docs/images/figcraft-editor.png)](https://getartcraft.com/apps/figcraft)
+
+*FigCraft's Ridgeline demo. Screenshot from the [ArtCraft Press Kit](https://getartcraft.com/press-kit).*
 
 ## Install
 
