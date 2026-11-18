@@ -5,17 +5,10 @@ Design screens, maintain reusable components, wire prototypes, and prepare devel
 ## Install
 
 1. Install the [FigCraft CLI](https://craft.wiki/apps/figcraft/ai-agents/#get-the-command-line-tool) for your platform. Make `figcraft-cli` available on the `PATH` inherited by Codex and confirm that `figcraft-cli --version` runs. The Windows executable is `figcraft-cli.exe`. For an AppImage or Flatpak, use the launcher from the FigCraft guide and [configure a different connection](#configure-a-different-connection) after installing the plugin.
-2. Register the marketplace at the release tag and install **FigCraft** in the Codex profile you use for Desktop or CLI.
+2. Register the marketplace and install **FigCraft** in the Codex profile you use for Desktop or CLI.
 
    ```sh
-   codex plugin marketplace add design4pro/figcraft-skills --ref v0.1.0
-   codex plugin add figcraft@figcraft-skills
-   ```
-
-   To install from a local checkout, run these commands from its root. You can also select **FigCraft Skills** in the Codex Desktop Plugins directory with the checkout open as a project.
-
-   ```sh
-   codex plugin marketplace add "$PWD"
+   codex plugin marketplace add design4pro/figcraft-skills
    codex plugin add figcraft@figcraft-skills
    ```
 
@@ -71,7 +64,3 @@ codex mcp add figcraft-desktop -- /absolute/path/to/figcraft-cli mcp --attach 79
 For file restrictions in this mode, pass the automation root flags to the FigCraft application when you start it. Use `figcraft-desktop` in the prompt to target the open window or test a prototype in the presenter.
 
 See the [FigCraft MCP reference](https://github.com/storytold/figcraft/blob/v0.18.1/docs/mcp.md) and [Codex MCP settings](https://learn.chatgpt.com/docs/extend/mcp) for connection and tool details.
-
-## Versioning
-
-Record user-facing changes under **Unreleased** in the [changelog](CHANGELOG.md). For each release, set the version in `plugins/figcraft/plugin.json`, move the pending entries into a dated changelog section for that version, and tag the release commit with the same version prefixed by `v`.
